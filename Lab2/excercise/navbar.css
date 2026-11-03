@@ -1,0 +1,96 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  flex-basis: 100%;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  font-family: system-ui, sans-serif;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #7dd3fc;
+}
+
+.menu-btn {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: block;
+}
+
+.menu-btn:focus-visible {
+  outline: 2px solid #7dd3fc;
+  outline-offset: 2px;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    gap: 1rem;
+    padding-top: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+}

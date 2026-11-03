@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="VibeTech professional workspace gear: keyboards, audio, monitors, wearables and desk accessories built for focus and creative flow.">
+	<meta name="theme-color" content="#ffffff">
+	<title>VibeTech — Professional Workspace Gear</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/w-light.css">
+</head>
+
+<body id="top">
+	<a class="skip-link" href="#main">Skip to content</a>
+
+	<div class="page">
+		<header class="site-header">
+			<div class="container site-header__inner">
+				<a class="brand" href="#top" aria-label="VibeTech home">
+					<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+						<path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<span>VibeTech</span>
+				</a>
+
+				<nav class="primary-nav" id="primary-nav" aria-label="Primary">
+					<ul class="nav-list">
+						<li><a href="#top" aria-current="page">Home</a></li>
+						<li><a href="#products">Products</a></li>
+						<li><a href="#products">Deals</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-actions">
+					<button class="icon-button" type="button" id="search-toggle" aria-label="Search products" aria-expanded="false" aria-controls="search-panel">
+						<svg viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+							<path d="M15.8333 9.16667C15.8333 12.8486 12.8486 15.8333 9.16667 15.8333C5.48477 15.8333 2.5 12.8486 2.5 9.16667C2.5 5.48477 5.48477 2.5 9.16667 2.5C12.8486 2.5 15.8333 5.48477 15.8333 9.16667Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M17.5 17.5L13.875 13.875" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+
+					<button class="icon-button cart-button" type="button" id="cart-button" aria-label="Open cart, 3 items">
+						<svg viewBox="0 0 20 20" fill="none" aria-hidden="true" focusable="false">
+							<path d="M8.33335 17.5C8.33335 17.9602 7.96026 18.3333 7.50002 18.3333C7.03978 18.3333 6.66669 17.9602 6.66669 17.5C6.66669 17.0398 7.03978 16.6667 7.50002 16.6667C7.96026 16.6667 8.33335 17.0398 8.33335 17.5Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M17.5 17.5C17.5 17.9602 17.1269 18.3333 16.6666 18.3333C16.2064 18.3333 15.8333 17.9602 15.8333 17.5C15.8333 17.0398 16.2064 16.6667 16.6666 16.6667C17.1269 16.6667 17.5 17.0398 17.5 17.5Z" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M0.833313 0.833328H4.16665L5.0006 5M5.0006 5L6.39998 11.9917C6.47618 12.3753 6.6849 12.72 6.9896 12.9652C7.2943 13.2105 7.67556 13.3408 8.06665 13.3333H16.1666C16.5577 13.3408 16.939 13.2105 17.2437 12.9652C17.5484 12.72 17.7571 12.3753 17.8333 11.9917L19.1666 5H5.0006ZM5.0006 5H4.99998" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<span class="cart-count" id="cart-count">3</span>
+					</button>
+				</div>
+
+				<button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+					<span class="visually-hidden">Toggle navigation</span>
+					<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+						<path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+
+			<div class="search-panel" id="search-panel" hidden>
+				<form class="container search-form" role="search" id="search-form">
+					<label class="visually-hidden" for="product-search">Search products</label>
+					<input type="search" id="product-search" name="q" placeholder="Search products, categories or keywords" autocomplete="off">
+				</form>
+			</div>
+		</header>
+
+		<main id="main">
+			<section class="hero" aria-labelledby="hero-title">
+				<div class="container hero__inner">
+					<h1 id="hero-title">Unleash the Next Level</h1>
+					<p>Explore our curated collection of professional workspace gear, crafted to elevate your daily productivity and creative flow.</p>
+				</div>
+			</section>
+
+			<section class="catalog" id="products" aria-labelledby="catalog-title">
+				<h2 class="visually-hidden" id="catalog-title">Featured products</h2>
+				<div class="container">
+					<div class="product-grid" id="product-grid">
+						<article class="product-card" data-search="wireless mouse accessories hot">
+							<div class="product-media">
+								<span class="product-badge">Hot</span>
+								<img src="assets/card-article-minimalist1.png" alt="Minimalist white wireless mouse" width="240" height="300" loading="eager" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Accessories</p>
+								<h3 class="product-title"><a href="#products">Wireless Mouse</a></h3>
+								<p class="product-price">$59.00</p>
+								<button class="add-to-cart" type="button" data-product="Wireless Mouse">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="tactix k85 mechanical keyboard keyboards">
+							<div class="product-media">
+								<img src="assets/background/background-mechanical.png" alt="Tactix K85 mechanical keyboard with white keycaps" width="428" height="287" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Keyboards</p>
+								<h3 class="product-title"><a href="#products">Tactix K85 Mechanical</a></h3>
+								<p class="product-price">$129.00</p>
+								<button class="add-to-cart" type="button" data-product="Tactix K85 Mechanical">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="zensound anc headset audio headphones">
+							<div class="product-media">
+								<img src="assets/background/background-wireless.png" alt="ZenSound noise cancelling wireless headset" width="428" height="286" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Audio</p>
+								<h3 class="product-title"><a href="#products">ZenSound ANC Headset</a></h3>
+								<p class="product-price">$189.00</p>
+								<button class="add-to-cart" type="button" data-product="ZenSound ANC Headset">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="novafit smart watch wearables sale">
+							<div class="product-media">
+								<span class="product-badge product-badge--sale">Sale</span>
+								<img src="assets/card-article-smart-watch.png" alt="NovaFit smart watch with a dark strap" width="413" height="300" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Wearables</p>
+								<h3 class="product-title"><a href="#products">NovaFit Smart Watch</a></h3>
+								<p class="product-price">$99.00</p>
+								<button class="add-to-cart" type="button" data-product="NovaFit Smart Watch">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="horizon 27 ips qhd display monitor monitors new">
+							<div class="product-media">
+								<span class="product-badge product-badge--new">New</span>
+								<img src="assets/card-article-minimalist2.png" alt="Horizon 27 inch IPS QHD monitor on a desk" width="428" height="286" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Monitors</p>
+								<h3 class="product-title"><a href="#products">Horizon 27" IPS QHD Display</a></h3>
+								<p class="product-price">$299.00</p>
+								<button class="add-to-cart" type="button" data-product="Horizon 27&quot; IPS QHD Display">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="streammic pro cardioid microphone audio">
+							<div class="product-media">
+								<img src="assets/card-article-studio.png" alt="StreamMic Pro cardioid studio microphone" width="200" height="300" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Audio</p>
+								<h3 class="product-title"><a href="#products">StreamMic Pro Cardioid</a></h3>
+								<p class="product-price">$149.00</p>
+								<button class="add-to-cart" type="button" data-product="StreamMic Pro Cardioid">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="lumos rgb smart desk lamp accessories sale">
+							<div class="product-media">
+								<span class="product-badge product-badge--sale">Sale</span>
+								<img src="assets/card-article-rgb-desk.png" alt="Lumos RGB smart desk lamp" width="200" height="300" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Accessories</p>
+								<h3 class="product-title"><a href="#products">Lumos RGB Smart Desk Lamp</a></h3>
+								<p class="product-price">$45.00</p>
+								<button class="add-to-cart" type="button" data-product="Lumos RGB Smart Desk Lamp">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+
+						<article class="product-card" data-search="ergostand aluminum laptop riser accessories">
+							<div class="product-media">
+								<img src="assets/background/background-ergonomic.png" alt="ErgoStand aluminum laptop riser holding a laptop" width="428" height="286" loading="lazy" decoding="async">
+							</div>
+							<div class="product-body">
+								<p class="product-category">Accessories</p>
+								<h3 class="product-title"><a href="#products">ErgoStand Aluminum Laptop Riser</a></h3>
+								<p class="product-price">$69.00</p>
+								<button class="add-to-cart" type="button" data-product="ErgoStand Aluminum Laptop Riser">
+									<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+										<path d="M4 1.33337L2 4.00004V13.3334C2 13.687 2.14048 14.0261 2.39052 14.2762C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2762C13.8595 14.0261 14 13.687 14 13.3334V4.00004L12 1.33337H4Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M2 4H14" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M10.6667 6.66663C10.6667 7.37387 10.3857 8.05215 9.88563 8.55224C9.38553 9.05234 8.70725 9.33329 8.00001 9.33329C7.29277 9.33329 6.61449 9.05234 6.11439 8.55224C5.61429 8.05215 5.33334 7.37387 5.33334 6.66663" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									<span>Add to Cart</span>
+								</button>
+							</div>
+						</article>
+					</div>
+
+					<p class="no-results" id="no-results" hidden>No products match your search.</p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer" id="about">
+			<div class="container">
+				<p>© 2026 VibeTech. Designed for Web Development Practice.</p>
+			</div>
+		</footer>
+	</div>
+
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+	<script src="js/main.js" defer></script>
+</body>
+
+</html>

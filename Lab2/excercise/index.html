@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio hehe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="grid.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">MyBrrrr</div>
+    <button class="menu-btn" id="menuToggle" aria-label="Open menu">
+      🙃
+    </button>
+    <nav class="nav-links" id="navMenu">
+      <a href="#about">About</a>
+      <a href="#project">Projects</a>
+    </nav>
+  </header>
+
+  <main class="grid-container">
+    <article class="project-card about-card" id="about">
+      <h1>Bui Thieu Khiem</h1>
+      <p>Computer Science student</p>
+      <p><b>Email:</b> <a href="mailto:26560030@gm.uit.edu.vn">26560030@gm.uit.edu.vn</a></p>
+      <p><a href="https://www.facebook.com/hickwhither/">Facebook</a></p>
+    </article>
+
+    <!-- Project Card 1 -->
+    <article class="project-card" id="project">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project1/400/300" alt="Creative Interface Project">
+      </div>
+      <div class="card-content">
+        <h2>Creative Interface</h2>
+        <p>Advanced Figma-to-code project focusing on responsive CSS
+          variables.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+
+    <!-- Project Card 2 -->
+    <article class="project-card">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project2/400/300" alt="Dynamic Application UI">
+      </div>
+      <div class="card-content">
+        <h2>Dynamic Dashboard</h2>
+        <p>Beautiful tabular layout featuring custom responsive borders and
+          grids.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project2/400/300" alt="Dynamic Application UI">
+      </div>
+      <div class="card-content">
+        <h2>Dynamic Dashboard</h2>
+        <p>Beautiful tabular layout featuring custom responsive borders and
+          grids.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project2/400/300" alt="Dynamic Application UI">
+      </div>
+      <div class="card-content">
+        <h2>Dynamic Dashboard</h2>
+        <p>Beautiful tabular layout featuring custom responsive borders and
+          grids.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project2/400/300" alt="Dynamic Application UI">
+      </div>
+      <div class="card-content">
+        <h2>Dynamic Dashboard</h2>
+        <p>Beautiful tabular layout featuring custom responsive borders and
+          grids.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="card-image-box">
+        <img src="https://picsum.photos/seed/project2/400/300" alt="Dynamic Application UI">
+      </div>
+      <div class="card-content">
+        <h2>Dynamic Dashboard</h2>
+        <p>Beautiful tabular layout featuring custom responsive borders and
+          grids.</p>
+        <a href="#" class="btn-more">View Project</a>
+      </div>
+    </article>
+  </main>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
