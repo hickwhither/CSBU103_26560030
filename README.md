@@ -4,5 +4,5 @@ ID: 26560030
 
 Name: Bùi Thiệu Khiêm
 
-- [Lab1](/Lab1/)
+- [Lab1](https://github.com/hickwhither/web-development-and-design-lab-0)
 - [Lab2](/Lab2/)
