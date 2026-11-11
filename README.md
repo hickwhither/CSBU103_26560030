@@ -1,8 +1,7 @@
 # CSBU103.R11.KHBC LAB Phát triển và thiết kế web
 
-Student: **Bùi Thiệu Khiêm**  
-Student ID: **26560030**  
-
+ID: **26560030**  
+Name: **Bùi Thiệu Khiêm**  
 
 ---
 
