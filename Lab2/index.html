@@ -2,15 +2,232 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="refresh" content="0; url=w-light.html">
-	<link rel="canonical" href="w-light.html">
-	<title>VibeTech — Redirecting</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeTech — Unleash the Next Level</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<p>This page has moved to the <a href="w-light.html">VibeTech store</a>.</p>
+
+  <!-- Sticky Navbar (Flexbox & Glassmorphism) -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <!-- Brand Logo -->
+      <a href="#" class="brand">
+        <img src="assets/logo.svg" alt="VibeTech logo" class="brand-icon">
+        <span>VibeTech</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#products">Deals</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- Actions: Search & Cart -->
+      <div class="header-actions">
+        <button class="action-btn" type="button" aria-label="Search">
+          <img src="assets/header-btn-search.svg" alt="Search icon">
+        </button>
+
+        <div class="cart-wrapper">
+          <button class="action-btn" type="button" aria-label="Cart">
+            <img src="assets/header-svg2.svg" alt="Cart icon">
+          </button>
+          <span class="cart-badge">3</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Unleash the Next Level</h1>
+      <p class="hero-subtitle">
+        Explore our curated collection of professional workspace gear, crafted to elevate your daily productivity and creative flow.
+      </p>
+    </div>
+  </section>
+
+  <!-- Product Grid Section (CSS Grid: Desktop/Tablet 4 cols, Mobile 2 cols) -->
+  <main class="portfolio-section" id="products">
+    <div class="container">
+      <div class="product-grid">
+
+        <!-- Card 1: Wireless Mouse (Hot Badge) -->
+        <article class="product-card">
+          <div class="card-media">
+            <span class="badge badge-hot">Hot</span>
+            <img src="assets/background/background-wireless.png" alt="Wireless Mouse" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Accessories</p>
+            <h2 class="card-title">Wireless Mouse</h2>
+            <p class="card-price">$59.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Tactix K85 Mechanical -->
+        <article class="product-card">
+          <div class="card-media">
+            <img src="assets/background/background-mechanical.png" alt="Tactix K85 Mechanical" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Keyboards</p>
+            <h2 class="card-title">Tactix K85 Mechanical</h2>
+            <p class="card-price">$129.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: ZenSound ANC Headset -->
+        <article class="product-card">
+          <div class="card-media">
+            <img src="assets/card-article-studio.png" alt="ZenSound ANC Headset" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Audio</p>
+            <h2 class="card-title">ZenSound ANC Headset</h2>
+            <p class="card-price">$189.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: NovaFit Smart Watch (Sale Badge) -->
+        <article class="product-card">
+          <div class="card-media">
+            <span class="badge badge-sale">Sale</span>
+            <img src="assets/card-article-smart-watch.png" alt="NovaFit Smart Watch" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Wearables</p>
+            <h2 class="card-title">NovaFit Smart Watch</h2>
+            <p class="card-price">$99.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5: Horizon 27" IPS QHD Display (New Badge) -->
+        <article class="product-card">
+          <div class="card-media">
+            <span class="badge badge-new">New</span>
+            <img src="assets/card-article-minimalist1.png" alt="Horizon 27 inch IPS QHD Display" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Monitors</p>
+            <h2 class="card-title">Horizon 27" IPS QHD Display</h2>
+            <p class="card-price">$299.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 6: StreamMic Pro Cardioid -->
+        <article class="product-card">
+          <div class="card-media">
+            <img src="assets/card-article-minimalist2.png" alt="StreamMic Pro Cardioid" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Audio</p>
+            <h2 class="card-title">StreamMic Pro Cardioid</h2>
+            <p class="card-price">$149.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 7: Lumos RGB Smart Desk Lamp (Sale Badge) -->
+        <article class="product-card">
+          <div class="card-media">
+            <span class="badge badge-sale">Sale</span>
+            <img src="assets/card-article-rgb-desk.png" alt="Lumos RGB Smart Desk Lamp" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Accessories</p>
+            <h2 class="card-title">Lumos RGB Smart Desk Lamp</h2>
+            <p class="card-price">$45.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 8: ErgoStand Aluminum Laptop Riser -->
+        <article class="product-card">
+          <div class="card-media">
+            <img src="assets/background/background-ergonomic.png" alt="ErgoStand Aluminum Laptop Riser" class="card-img" loading="lazy">
+            <div class="card-overlay">
+              <span class="overlay-text">Quick View</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-category">Accessories</p>
+            <h2 class="card-title">ErgoStand Aluminum Laptop Riser</h2>
+            <p class="card-price">$69.00</p>
+            <button class="btn-cart" type="button">
+              <img src="assets/btn/btn-icon.svg" alt="" aria-hidden="true">
+              <span>Add to Cart</span>
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="about">
+    <div class="container">
+      <p>&copy; 2026 VibeTech. Designed for Web Development Practice.</p>
+    </div>
+  </footer>
+
 </body>
 
 </html>

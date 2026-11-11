@@ -1,6 +1,7 @@
-# How to jump in !
+# Lab 2: Responsive Landing Page (VibeTech)
 
+Student: **Bùi Thiệu Khiêm**  
+Student ID: **26560030**  
+Github: **https://hickwhither.github.io/CSBU103_26560030/Lab2/**
 
-⭐ To edit the code : Open the extracted folder in your favourite IDE (example : VSCode)
-
-⭐ To see the result : Open index.html in a browser
+---
