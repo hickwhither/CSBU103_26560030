@@ -4,7 +4,7 @@ Name: **Bùi Thiệu Khiêm**
 Github: **https://github.com/hickwhither/CSBU103_26560030/tree/master/Lab3**
 
 ---
-This submission uses Bootstrap v6 for all exercises and homework, as the focus is on JavaScript rather than custom CSS.
+This submission uses Bootstrap v6 for some exercises and homework, as the focus is on JavaScript rather than custom CSS.
 
 ## Light/Dark Mode
 Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/excercise1
