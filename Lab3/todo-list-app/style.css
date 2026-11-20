@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #f7fafc; }
+.todo-app { max-width: 420px; margin: 3rem auto; background: white; padding: 2rem; border-radius: 12px; }
+#todoForm { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+#todoInput { flex: 1; padding: 0.5rem; }
+#todoList { list-style: none; padding: 0; }
+#todoList li { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0; border-bottom: 1px solid #e2e8f0; }
+#todoList li.completed span { text-decoration: line-through; color: #a0aec0; }
+.delete-btn { margin-left: auto; background: none; border: none; cursor: pointer; color: #c0392b; }
+#filter { display: flex; gap: 0.5rem; margin-top: 1rem; }
+#filter button.active { font-weight: bold; }
