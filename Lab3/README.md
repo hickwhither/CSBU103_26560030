@@ -4,16 +4,21 @@ Name: **Bùi Thiệu Khiêm**
 Github: **https://github.com/hickwhither/CSBU103_26560030/tree/master/Lab3**
 
 ---
-This submission uses Bootstrap v6 for some exercises and homework, as the focus is on JavaScript, React rather than custom CSS.
+This submission uses Bootstrap v6 for *some* exercises and homework, as the focus is on JavaScript, React rather than custom CSS.
 
 ## Light/Dark Mode
 Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/theme-mode
 
-# Todo List App
+## Todo List App
 Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/todo-list-app
 
-# Tic-Tac-Toe
+## Tic-Tac-Toe
 Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/tic-tac-toe
 
-# Tic-Tac-Toe React
-Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/tic-tac-toe-react/dist
+
+# Homework
+# Product gallery
+Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/product-gallery
+
+## Tic-Tac-Toe React
+Page: https://hickwhither.github.io/CSBU103_26560030/Lab3/tic-tac-toe-react/demo
