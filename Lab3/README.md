@@ -1,4 +1,4 @@
-# Session: Lab1
+# Session: Lab3
 ID: **26560030**  
 Name: **Bùi Thiệu Khiêm**  
 Github: **https://github.com/hickwhither/CSBU103_26560030/tree/master/Lab3**
